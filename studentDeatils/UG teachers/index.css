@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.profile {
+    text-align: center;
+    padding: 20px 0px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.profile p {
+    padding-left: 18rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    gap: 10%;
+    padding: 50px 50px 10px 50px;
+    height: 70vh;
+    background-color: white;
+    margin-bottom: 50px;
+
+}
+
+.cardone {
+    background-color: tan;
+    padding: 10px;
+    box-shadow: 2px 2px 20px 20px white;
+    border-radius: 10px;
+}
+
+.cardone img {
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.cardone h3 {
+    padding: 3px;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.cardone p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.3rem;
+}
+
+.cardone button {
+    padding: 10px;
+    background-color: tomato;
+    outline: none;
+    border: none;
+    margin: 10px 0px 10px 0;
+    border-radius: 5px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.cardone {
+    background-color: tan;
+    padding: 10px;
+    box-shadow: 2px 2px 20px 20px white;
+    border-radius: 10px;
+}
+
+.cardone img {
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.cardone h3 {
+    padding: 3px;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.cardone p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.3rem;
+}
+
+.cardone button {
+    padding: 10px;
+    background-color: tomato;
+    outline: none;
+    border: none;
+    margin: 10px 0px 10px 0;
+    border-radius: 5px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}

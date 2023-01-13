@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #36348e;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #cdb4db;
+    color: white;
+    width: 100%;
+}
+
+.logo {
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    font-family: 'Sevillana', cursive;
+    /* padding: 5px; */
+    margin-left: 5rem;
+    /* background-color: #ffc8dd; */
+    align-items: center;
+    color: black;
+}
+
+.items ul {
+    display: flex;
+}
+
+.items ul li {
+    padding: 1rem;
+    margin-right: 2rem;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.items ul li i {
+    padding-right: 5px;
+}
+
+.items ul li a {
+    color: white;
+}
+
+.items ul li:hover {
+    background-color: yellow;
+    border-radius: 5px;
+    color: black;
+}
+
+.items a:hover {
+    color: #000;
+}
+
+.container {
+    background-color: #181741;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Sevillana', cursive;
+    padding: 5rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.welcome-par {
+    text-align: center;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-transform: capitalize;
+    height: 50vh;
+}
+
+.welcome-par h1 {
+    font-size: 5rem;
+    padding: 10px;
+}
+
+.welcome-par p {
+    font-size: 1.5rem;
+    padding: 10px;
+    letter-spacing: 2px;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.welcome-par a {
+    color: white;
+    font-size: large;
+    font-family: Arial;
+    letter-spacing: 3px;
+}
+
+.welcome-par a:hover {
+    color: yellow;
+
+}
+
+.profile {
+    text-align: center;
+    padding: 20px 0px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.profile p {
+    padding-left: 18rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    gap: 10%;
+    padding: 50px 50px 10px 50px;
+    height: 70vh;
+    background-color: white;
+    margin-bottom: 50px;
+
+}
+
+.cardone {
+    background-color: tan;
+    padding: 10px;
+    box-shadow: 2px 2px 20px 20px white;
+    border-radius: 10px;
+}
+
+.cardone img {
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.cardone h3 {
+    padding: 3px;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.cardone p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.3rem;
+}
+
+.cardone button {
+    padding: 10px;
+    background-color: tomato;
+    outline: none;
+    border: none;
+    margin: 10px 0px 10px 0;
+    border-radius: 5px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.cardone {
+    background-color: tan;
+    padding: 10px;
+    box-shadow: 2px 2px 20px 20px white;
+    border-radius: 10px;
+}
+
+.cardone img {
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.cardone h3 {
+    padding: 3px;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.cardone p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.3rem;
+}
+
+.cardone button {
+    padding: 10px;
+    background-color: tomato;
+    outline: none;
+    border: none;
+    margin: 10px 0px 10px 0;
+    border-radius: 5px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.opening {
+    text-align: center;
+    padding: 20px 0px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    letter-spacing: 1px;
+    height: 20vh;
+}
+
+.departments {
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    padding: 40px 20px 40px 20px;
+}
+
+.department a {
+    background-color: #000;
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.department a:hover {
+    box-shadow: 1px 0px 20px 20px rgb(123, 3, 244);
+}
+
+.aboutourcollege {
+    background-color: #000;
+}
+
+.about {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    background-color: #000;
+    padding: 20px 0 20px 0;
+    color: white;
+}
+
+.aboutone {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutone img {
+    width: 500px;
+    height: 500px;
+
+}
+
+.aboutone p {
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    padding: 6.9rem 0 20px 70px;
+    width: 50%;
+    line-height: 50px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer button {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.footers {
+    display: flex;
+    justify-content: space-around;
+    height: 55vh;
+    padding: 40px 0 0 0;
+    background-color: #cdb4db;
+}
+
+.footersone h1 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+.footersone ul li {
+    text-transform: capitalize;
+    padding: 10px;
+    text-align: center;
+}
+
+.footersone a {
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.social {
+    text-align: center;
+    padding: 10px;
+    background-color: #cdb4db;
+}
+
+.social i {
+    padding: 20px;
+    font-size: 3rem;
+    color: #03072d;
+}

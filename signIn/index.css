@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: thistle;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 3px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    padding: 50px;
+    box-shadow: 0px 10px 0px 10px #fff;
+}
+
+.container-one h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+.container-two input {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    margin-bottom: 10px;
+}
+
+.container-two label {
+    font-size: large;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-two i {
+    position: absolute;
+    top: 35.55%;
+    right: 60px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 5px;
+}
+
+.container-three {
+    text-align: center;
+    margin: 10px;
+}
+
+.or {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    margin: 30px 0 10px;
+    background-color: #5c5b5b;
+}
+
+.or::before {
+    content: 'OR';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: #232836;
+}
+
+.container button {
+    width: 100%;
+    cursor: pointer;
+    text-transform: capitalize;
+    padding: 10px;
+    font-weight: 300;
+    font-size: large;
+    background-color: #cacaca;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bottom-text {
+    text-transform: capitalize;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.bottom-text span {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.bottom-text a {
+    text-decoration: none;
+    color: #1509ee;
+}
+
+.container-four {
+    text-align: center;
+    padding: 10px;
+}
+
+.container-four a {
+    font-size: medium;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.container-four i {
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.one {
+    background-color: #0549be;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    font-weight: 200;
+    padding: 10px;
+}
+
+footer {
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #0c9cf5;
+    font-weight: bolder;
+}
