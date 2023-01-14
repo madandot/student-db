@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
 
 * {
     margin: 0;
@@ -130,7 +130,7 @@ li {
 }
 
 .profile p {
-    padding-left: 18rem;
+    padding-left: 5.5rem;
 }
 
 .cards {
@@ -139,7 +139,7 @@ li {
     justify-content: space-around;
     gap: 10%;
     padding: 50px 50px 10px 50px;
-    height: 70vh;
+    height: 60vh;
     background-color: white;
     margin-bottom: 50px;
 
