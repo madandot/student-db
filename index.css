@@ -1,333 +1,356 @@
   @import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
 
-body {
-    background-color: white;
-}
+  body {
+      background-color: white;
+  }
 
-a {
-    text-decoration: none;
-}
+  a {
+      text-decoration: none;
+  }
 
-li {
-    list-style: none;
-}
+  li {
+      list-style: none;
+  }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    background-color: #36348e;
-    cursor: pointer;
-    box-shadow: 0px 0px 10px #cdb4db;
-    color: white;
-    width: 100%;
-}
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px;
+      background-color: #36348e;
+      cursor: pointer;
+      box-shadow: 0px 0px 10px #cdb4db;
+      color: white;
+      width: 100%;
+  }
 
-.logo {
-    font-size: 1rem;
-    font-weight: 700;
-    border-radius: 5px;
-    font-family: 'Sevillana', cursive;
-    /* padding: 5px; */
-    margin-left: 5rem;
-    /* background-color: #ffc8dd; */
-    align-items: center;
-    color: black;
-}
+  .logo {
+      font-size: 1rem;
+      font-weight: 700;
+      border-radius: 5px;
+      font-family: 'Sevillana', cursive;
+      padding: 5px;
+      margin-left: 5rem;
+      background-color: #ffc8dd;
+      align-items: center;
+      color: black;
+  }
 
-.items ul {
-    display: flex;
-}
+  .items ul {
+      display: flex;
+  }
 
-.items ul li {
-    padding: 1rem;
-    margin-right: 2rem;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-}
+  .items ul li {
+      padding: 1rem;
+      margin-right: 2rem;
+      font-size: 20px;
+      font-weight: 700;
+      font-family: Arial, Helvetica, sans-serif;
+  }
 
-.items ul li i {
-    padding-right: 5px;
-}
+  .items ul li i {
+      padding-right: 5px;
+  }
 
-.items ul li a {
-    color: white;
-}
+  .items ul li a {
+      color: white;
+  }
 
-.items ul li:hover {
-    background-color: yellow;
-    border-radius: 5px;
-    color: black;
-}
+  .items ul li:hover {
+      background-color: yellow;
+      border-radius: 5px;
+      color: black;
+  }
 
-.items a:hover {
-    color: #000;
-}
+  .items a:hover {
+      color: #000;
+  }
 
-.container {
-    background-color: #181741;
-}
+  .dep {
+      display: none;
+  }
 
-.welcome {
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'Sevillana', cursive;
-    padding: 5rem;
-    border-radius: 5px;
-    color: white;
-}
+  .it:hover .dep {
+      display: block;
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 15px;
+  }
 
-.welcome-par {
-    text-align: center;
-    color: white;
-    font-family: 'Kanit', sans-serif;
-    text-transform: capitalize;
-    height: 50vh;
-}
+  .it:hover .dep ul {
+      display: block;
+      margin: 10px;
+      background-color: #03072d;
+      border-radius: 5px;
+  }
 
-.welcome-par h1 {
-    font-size: 5rem;
-    padding: 10px;
-}
+  .container {
+      background-color: #181741;
+  }
 
-.welcome-par p {
-    font-size: 1.5rem;
-    padding: 10px;
-    letter-spacing: 2px;
-    gap: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin-bottom: 2rem;
-}
+  .welcome {
+      text-align: center;
+      font-size: 3rem;
+      font-family: 'Sevillana', cursive;
+      padding: 5rem;
+      border-radius: 5px;
+      color: white;
+  }
 
-.welcome-par a {
-    color: white;
-    font-size: large;
-    font-family: Arial;
-    letter-spacing: 3px;
-}
+  .welcome-par {
+      text-align: center;
+      color: white;
+      font-family: 'Kanit', sans-serif;
+      text-transform: capitalize;
+      height: 50vh;
+  }
 
-.welcome-par a:hover {
-    color: yellow;
+  .welcome-par h1 {
+      font-size: 5rem;
+      padding: 10px;
+  }
 
-}
+  .welcome-par p {
+      font-size: 1.5rem;
+      padding: 10px;
+      letter-spacing: 2px;
+      gap: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      margin-bottom: 2rem;
+  }
 
-.profile {
-    text-align: center;
-    padding: 20px 0px;
-    text-transform: capitalize;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
+  .welcome-par a {
+      color: white;
+      font-size: large;
+      font-family: Arial;
+      letter-spacing: 3px;
+  }
 
-.profile p {
-    padding-left: 5.5rem;
-}
+  .welcome-par a:hover {
+      color: yellow;
 
-.cards {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-around;
-    gap: 10%;
-    padding: 50px 50px 10px 50px;
-    height: 60vh;
-    background-color: white;
-    margin-bottom: 50px;
+  }
 
-}
+  .profile {
+      text-align: center;
+      padding: 20px 0px;
+      text-transform: capitalize;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
+      letter-spacing: 1px;
+  }
 
-.cardone {
-    background-color: tan;
-    padding: 10px;
-    box-shadow: 2px 2px 20px 20px white;
-    border-radius: 10px;
-}
+  .profile p {
+      padding-left: 5.5rem;
+  }
 
-.cardone img {
-    border-radius: 50%;
-    padding: 5px;
-}
+  .cards {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: space-around;
+      gap: 10%;
+      padding: 50px 50px 10px 50px;
+      height: 60vh;
+      background-color: white;
+      margin-bottom: 50px;
 
-.cardone h3 {
-    padding: 3px;
-    text-transform: capitalize;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 1px;
-}
+  }
 
-.cardone p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.3rem;
-}
+  .cardone {
+      background-color: tan;
+      padding: 10px;
+      box-shadow: 2px 2px 20px 20px white;
+      border-radius: 10px;
+  }
 
-.cardone button {
-    padding: 10px;
-    background-color: tomato;
-    outline: none;
-    border: none;
-    margin: 10px 0px 10px 0;
-    border-radius: 5px;
-    font-size: large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 1.5px;
-    cursor: pointer;
-}
+  .cardone img {
+      border-radius: 50%;
+      padding: 5px;
+  }
 
-.cardone {
-    background-color: tan;
-    padding: 10px;
-    box-shadow: 2px 2px 20px 20px white;
-    border-radius: 10px;
-}
+  .cardone h3 {
+      padding: 3px;
+      text-transform: capitalize;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      letter-spacing: 1px;
+  }
 
-.cardone img {
-    border-radius: 50%;
-    padding: 5px;
-}
+  .cardone p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      line-height: 1.3rem;
+  }
 
-.cardone h3 {
-    padding: 3px;
-    text-transform: capitalize;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 1px;
-}
+  #more {
+      display: none;
+  }
 
-.cardone p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.3rem;
-}
+  .cardone button {
+      padding: 10px;
+      background-color: tomato;
+      outline: none;
+      border: none;
+      margin: 10px 0px 10px 0;
+      border-radius: 5px;
+      font-size: large;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      letter-spacing: 1.5px;
+      cursor: pointer;
+  }
 
-.cardone button {
-    padding: 10px;
-    background-color: tomato;
-    outline: none;
-    border: none;
-    margin: 10px 0px 10px 0;
-    border-radius: 5px;
-    font-size: large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 1.5px;
-    cursor: pointer;
-}
+  .cardone {
+      background-color: tan;
+      padding: 10px;
+      box-shadow: 2px 2px 20px 20px white;
+      border-radius: 10px;
+  }
 
-.opening {
-    text-align: center;
-    padding: 20px 0px;
-    text-transform: capitalize;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    letter-spacing: 1px;
-    height: 20vh;
-}
+  .cardone img {
+      border-radius: 50%;
+      padding: 5px;
+  }
 
-.departments {
-    display: flex;
-    justify-content: space-around;
-    height: 30vh;
-    padding: 40px 20px 40px 20px;
-}
+  .cardone h3 {
+      padding: 3px;
+      text-transform: capitalize;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      letter-spacing: 1px;
+  }
 
-.department a {
-    background-color: #000;
-    padding: 30px;
-    border-radius: 5px;
-    color: white;
-}
+  .cardone p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      line-height: 1.3rem;
+  }
 
-.department a:hover {
-    box-shadow: 1px 0px 20px 20px rgb(123, 3, 244);
-}
+  .cardone button {
+      padding: 10px;
+      background-color: tomato;
+      outline: none;
+      border: none;
+      margin: 10px 0px 10px 0;
+      border-radius: 5px;
+      font-size: large;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      letter-spacing: 1.5px;
+      cursor: pointer;
+  }
 
-.aboutourcollege {
-    background-color: #000;
-}
+  .opening {
+      text-align: center;
+      padding: 2rem 0px 60px 0px;
+      text-transform: capitalize;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
+      letter-spacing: 1px;
+      height: 20vh;
 
-.about {
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
-    background-color: #000;
-    padding: 20px 0 20px 0;
-    color: white;
-}
+  }
 
-.aboutone {
-    display: flex;
-    justify-content: center;
-}
+  .departments {
+      display: flex;
+      justify-content: space-around;
+      height: 30vh;
+      padding: 40px 20px 40px 20px;
+  }
 
-.aboutone img {
-    width: 500px;
-    height: 500px;
+  .department a {
+      background-color: #000;
+      padding: 30px;
+      border-radius: 5px;
+      color: white;
+  }
 
-}
+  .department a:hover {
+      color: red;
+  }
 
-.aboutone p {
-    color: white;
-    font-size: 2rem;
-    text-align: left;
-    padding: 6.9rem 0 20px 70px;
-    width: 50%;
-    line-height: 50px;
-}
+  .aboutourcollege {
+      background-color: #000;
+  }
 
-.footer {
-    text-align: center;
-}
+  .about {
+      text-align: center;
+      font-size: 25px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-transform: uppercase;
+      background-color: #000;
+      padding: 20px 0 20px 0;
+      color: white;
+  }
 
-.footer button {
-    padding: 10px;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    background-color: orangered;
-    cursor: pointer;
-}
+  .aboutone {
+      display: flex;
+      justify-content: center;
+  }
 
-.footers {
-    display: flex;
-    justify-content: space-around;
-    height: 55vh;
-    padding: 40px 0 0 0;
-    background-color: #cdb4db;
-}
+  .aboutone img {
+      width: 500px;
+      height: 500px;
 
-.footersone h1 {
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
-    text-align: center;
-}
+  }
 
-.footersone ul li {
-    text-transform: capitalize;
-    padding: 10px;
-    text-align: center;
-}
+  .aboutone p {
+      color: white;
+      font-size: 2rem;
+      text-align: left;
+      padding: 6.9rem 0 20px 70px;
+      width: 50%;
+      line-height: 50px;
+  }
 
-.footersone a {
-    color: #000;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+  .footer {
+      text-align: center;
+  }
 
-.social {
-    text-align: center;
-    padding: 10px;
-    background-color: #cdb4db;
-}
+  .footer button {
+      padding: 10px;
+      border-radius: 5px;
+      outline: none;
+      border: none;
+      background-color: orangered;
+      cursor: pointer;
+  }
 
-.social i {
-    padding: 20px;
-    font-size: 3rem;
-    color: #03072d;
-}
+  .footers {
+      display: flex;
+      justify-content: space-around;
+      height: 55vh;
+      padding: 40px 0 0 0;
+      background-color: #cdb4db;
+  }
+
+  .footersone h1 {
+      text-transform: uppercase;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 5px;
+      text-align: center;
+  }
+
+  .footersone ul li {
+      text-transform: capitalize;
+      padding: 10px;
+      text-align: center;
+  }
+
+  .footersone a {
+      color: #000;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .social {
+      text-align: center;
+      padding: 10px;
+      background-color: #cdb4db;
+  }
+
+  .social i {
+      padding: 20px;
+      font-size: 3rem;
+      color: #03072d;
+  }

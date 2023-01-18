@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+.hod {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.hod-one {
+    display: flex;
+}
+
 .profile {
     text-align: center;
     padding: 20px 0px;
@@ -37,7 +49,7 @@
 }
 
 .cardone img {
-    border-radius: 50%;
+    border-radius: 10pxx;
     padding: 5px;
 }
 
