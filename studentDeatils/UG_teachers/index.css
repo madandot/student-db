@@ -56,31 +56,26 @@ body {
     font-size: 30px;
 }
 
-.containers {
-    display: flex;
-    text-align: left;
-    /* width: max-content; */
-    /* margin: auto; */
-    /* background-color: thistle; */
-    border-radius: 5px;
+.bca-profiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    margin-left: 10px;
 }
 
-.container-pros {
-    padding: 1rem 0 0 2rem;
+.card {
+    background-color: tomato;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container-pros h1 {
-    padding: 10px;
+.card p {
+    text-align: start;
+    font-size: larger;
+    font-weight: 500;
+    padding: 10px 0 10px 3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    letter-spacing: 1.5px;
-}
-
-.container-pro img {
-    padding: 10px;
-    border-radius: 15px;
-}
-
-.con {
-    background-color: rgb(241, 107, 107);
 }
