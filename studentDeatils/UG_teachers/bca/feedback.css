@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.feedback {
+    text-align: center;
+    font-weight: 900;
+    padding: 30px 0 30px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head input {
+    padding: 10px;
+    outline: none;
+}
+
+.container {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background-color: rgb(242, 187, 187);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.container-two input {
+    width: 50%;
+    display: block;
+    padding: 10px;
+    outline: 0;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-two label {
+    font-size: large;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.email {
+    font-size: large;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.emails {
+    width: 50%;
+    display: block;
+    padding: 10px;
+    outline: 0;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

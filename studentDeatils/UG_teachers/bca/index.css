@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.heading {
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.heading-one {
+    height: 40vh;
+}
+
+.heading-one ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.heading-one ul li {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.heading-one ul li a:hover {
+    color: crimson;
+}
+
+.first-year {
+    display: none;
+}
+
+.heading-one ul li:hover .first-year {
+    display: block;
+    position: absolute;
+    margin-left: 90px;
+}
+
+.heading-one ul li:hover .first-year ul {
+    display: block;
+    margin: 10px;
+}
+
+.first-year ul {
+    background-color: white;
+}
+
+.first-year ul li {
+    box-shadow: none;
+    padding: 20px 20px 10px 20px;
+}
+
+.lectures {
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.bca-profiles {
+    display: flex;
+    margin: 20px;
+    background-color: tan;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.cards img {
+    border-radius: 50%;
+    margin-top: 6rem;
+
+}
+
+.card h1 {
+    margin-left: 30px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card p {
+    margin-left: 30px;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mybtn {
+    padding: 10px;
+    margin-left: 40px;
+    border-radius: 5px;
+    font-size: medium;
+    border: none;
+}
