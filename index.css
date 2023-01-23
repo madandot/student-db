@@ -18,60 +18,7 @@
       list-style: none;
   }
 
-  .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 5px;
-      background-color: #36348e;
-      cursor: pointer;
-      box-shadow: 0px 0px 10px #cdb4db;
-      color: white;
-      width: 100%;
-  }
-
-  .logo {
-      font-size: 1rem;
-      font-weight: 700;
-      border-radius: 5px;
-      font-family: 'Sevillana', cursive;
-      padding: 5px;
-      margin-left: 5rem;
-      background-color: #ffc8dd;
-      align-items: center;
-      color: black;
-  }
-
-  .items ul {
-      display: flex;
-  }
-
-  .items ul li {
-      padding: 1rem;
-      margin-right: 2rem;
-      font-size: 20px;
-      font-weight: 700;
-      font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .items ul li i {
-      padding-right: 5px;
-  }
-
-  .items ul li a {
-      color: white;
-  }
-
-  .items ul li:hover {
-      background-color: yellow;
-      border-radius: 5px;
-      color: black;
-  }
-
-  .items a:hover {
-      color: #000;
-  }
-
+  /* 
   .dep {
       display: none;
   }
@@ -88,7 +35,7 @@
       margin: 10px;
       background-color: #03072d;
       border-radius: 5px;
-  }
+  } */
 
   .container {
       background-color: #181741;
