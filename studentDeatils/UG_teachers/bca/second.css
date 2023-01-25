@@ -38,7 +38,7 @@ th {
 }
 
 .student-table {
-    height: 110vh;
+    height: 130vh;
     padding: 3rem;
 }
 
@@ -85,6 +85,7 @@ th {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 2px;
     padding-left: 4.5rem;
+    /* height: 10vh; */
 }
 
 .subject-details th {
@@ -92,4 +93,8 @@ th {
     font-size: large;
     font-weight: 600;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#fourth{
+    padding-top: 10rem;
 }
