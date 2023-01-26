@@ -5,14 +5,16 @@ const calculate = () => {
   let hindi = document.querySelector("#hindi").value;
   let maths = document.querySelector("#maths").value;
   let phy = document.querySelector("#phy").value;
+  let dcn = document.querySelector("#dcn").value;
+  let mp = document.querySelector("#mp").value;
   let grades = "";
 
   // Input is string so typecasting is necessary. */
-  let totalgrades = parseFloat(chemistry) + parseFloat(hindi) + parseFloat(maths) + parseFloat(phy);
+  let totalgrades = parseFloat(chemistry) + parseFloat(hindi) + parseFloat(maths) + parseFloat(phy) + parseFloat(dcn) + parseFloat(mp);
 
   // Checking the condition for the providing the
   // grade to student based on percentage
-  let percentage = (totalgrades / 400) * 100;
+  let percentage = (totalgrades / 600) * 100;
   if (percentage <= 100 && percentage >= 80) {
     grades = "A";
   } else if (percentage <= 79 && percentage >= 60) {
@@ -24,7 +26,7 @@ const calculate = () => {
   }
   // Checking the values are empty if empty than
   // show please fill them
-  if (chemistry == "" || hindi == "" || maths == "" || phy == "") {
+  if (chemistry == "" || hindi == "" || maths == "" || phy == "" || dcn == "" || mp == "") {
     document.querySelector("#showdata").innerHTML = "Please enter all the fields";
   } else {
     // Checking the condition for the fail and pass

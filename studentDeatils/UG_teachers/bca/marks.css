@@ -1,8 +1,82 @@
-.heading{
-    font-family:'Courier New', Courier, monospace;
+.heading {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+}
+
+#container {
+    width: 100%;
+}
+
+.input-marks {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.name-score th {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.subject th {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
     text-transform: capitalize;
 }
-.one input{
+
+.inputs-datas td input {
+    padding: 5px;
+}
+
+.inputs-datas td {
+    border: none;
+}
+
+.addtotable th input {
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #deefde;
+    font-size: 12px;
+}
+
+.container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
     text-align: center;
-    padding: 10px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+.screen-body-item {
+    flex: 1;
+    padding: 50px;
+}
+
+input {
+    margin: 10px 10px 10px;
+    /* padding: 10px; */
+}
+
+.showdata {
+    color: black;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

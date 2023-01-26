@@ -61,3 +61,7 @@
     font-weight: 700;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.one {
+    cursor: pointer;
+}

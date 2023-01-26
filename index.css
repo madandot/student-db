@@ -257,3 +257,7 @@
       font-size: 3rem;
       color: #03072d;
   }
+
+  .dep ul li a {
+      text-transform: capitalize;
+  }

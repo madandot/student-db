@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=S, initial-scale=1.0">
+    <link rel="stylesheet" href="attendance.css">
+    <script src="attendeance.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student grade calculator</h1>
+        <div class="screen-body-item">
+            <div class="app">
+                <div class="form-group">
+                    <!-- option for taking the input -->
+                    <input type="text" class="form-control" placeholder="subject 01" id="chemistry" />
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="subject 02" id="hindi" />
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="subject 03" id="maths" />
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="subject 04" id="phy" />
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="subject 05" id="dcn" />
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="subject 06" id="mp" />
+                </div>
+                <div class="form-group">
+                    <input type="button" value="show Percentage" class="form-button" onclick="calculate()" />
+                </div>
+
+            </div>
+        </div>
+        <!-- for showing the result-->
+        <div class="form-group showdata">
+            <p id="showdata"></p>
+        </div>
+    </div>
+</body>
+
+</html>

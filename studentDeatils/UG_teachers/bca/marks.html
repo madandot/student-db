@@ -1,76 +1,74 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="marks.css">
+<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet" />
+<script src="marks.js"></script>
+<title>student calculate</title>
 <html>
-  <section >
 
-      <body bgcolor="lightblue" id="form_id ">
-          
-          <h1 class="heading">Marks Calculator</h1>
-          <center>
-              <table border="1" cellspacing="5" bgcolor="white">
-                  <caption><b>Input Marks</b></caption>
-                  <tr>
-            <th rowspan="2">Name</th>
-            <th colspan="7">Score</th>
-            
-        </tr>
-        <tr >
-            <th>subject 01</th>
-            <th>subject 02</th>
-            <th>subject 03</th>
-            <th>subject 04</th>
-            <th>subject 05</th>
-            <th>subject 06</th>            
-        </tr>
-        <tr>
-            <td><input type="text" id="aname"></td>
-            <td><input type="text" id="am"></td>
-            <td><input type="text" id="aj"></td>
-            <td><input type="text" id="ad"></td>
-            <td><input type="text" id="an"></td>
-            <td><input type="text" id="ac"></td>
-            <td><input type="text" id="ap"></td>
-            
-        </tr>
-        <tr>
-            <th colspan="7" height="30">
-                <input type="submit" value="Add To Table" onclick="Sub()"></th>
-            </tr>    
+
+<body bgcolor="lightblue">
+    <h1 class="heading">Marks Calculator</h1>
+    <center>
+        <table border="1" cellspacing="5" bgcolor="white" id="container">
+            <caption class="input-marks"><b>Input Marks</b></caption>
+            <form action="post" id=" form_id">
+
+                <tr class="name-score">
+                    <th rowspan="2">USN</th>
+                    <th colspan="7">Score</th>
+                </tr>
+                <tr class="subject">
+                    <th>subject 01</th>
+                    <th>subject 02</th>
+                    <th>subject 03</th>
+                    <th>subject 04</th>
+                    <th>subject 05</th>
+                    <th>subject 06</th>
+                </tr>
+                <tr class="inputs-datas">
+                    <td><input type="text" id="aname"></td>
+                    <td><input type="text" id="am"></td>
+                    <td><input type="text" id="aj"></td>
+                    <td><input type="text" id="ad"></td>
+                    <td><input type="text" id="an"></td>
+                    <td><input type="text" id="ac"></td>
+                    <td><input type="text" id="ap"></td>
+                </tr>
+                <tr class="addtotable">
+                    <th colspan="7" height="30">
+                        <input type="submit" value="Add To Table" onclick="Sub()">
+                        <INPUT class="one" TYPE="reset" value="Reset" onclick="newFunction()">
+                    </th>
+                </tr>
         </table>
+        </form>
         <br>
-        <table border="1" cellspacing="7" bgcolor="white" 
-        height="100" width="500" cellpadding="5" id="TableScore">
-        <caption><b>Student Data</b></caption>
-        <tr>
-            <th width="180">Name</th>
-            <th>Total</th>
-            <th>Average</th>
-            <th>Pass Or Fail</th>
-        </tr>
-        
-    </table>
-</center>
+        <table border="1" cellspacing="7" bgcolor="white" height="100" width="500" cellpadding="5" id="TableScore">
+            <caption><b>Student Data</b></caption>
+            <tr class="data">
+                <th width="180">Name</th>
+                <th>Total</th>
+                <th>Average</th>
+                <th>Pass Or Fail</th>
+            </tr>
 
-<div class="one">
-    <input type = "button" onclick = "newFunction()" value = "Reset" >
-</div>
-
-</section>
-
-
+        </table>
+    </center>
+    </section>
     <script type="text/javascript">
-        function Sub(){
-            var n, k, r, e, v,c,p, sum, avg;
-            n=(document.getElementById('aname').value);
-            k=parseFloat(document.getElementById('am').value);
-            r=parseFloat(document.getElementById('aj').value);
-            e=parseFloat(document.getElementById('ad').value);
-            v=parseFloat(document.getElementById('an').value);
-            c=parseFloat(document.getElementById('ac').value);
-            p=parseFloat(document.getElementById('ap').value);
+        function Sub() {
+            var n, k, r, e, v, c, p, sum, avg;
+            n = (document.getElementById('aname').value);
+            k = parseFloat(document.getElementById('am').value);
+            r = parseFloat(document.getElementById('aj').value);
+            e = parseFloat(document.getElementById('ad').value);
+            v = parseFloat(document.getElementById('an').value);
+            c = parseFloat(document.getElementById('ac').value);
+            p = parseFloat(document.getElementById('ap').value);
 
             // Calculating Total
-            sum=k+r+e+v+c+p;
-            avg=sum/6;
+            sum = k + r + e + v + c + p;
+            avg = sum / 6;
             // Display on Student Data
             var newTable = document.getElementById('TableScore');
             var row = newTable.insertRow(-1);
@@ -81,23 +79,22 @@
             // var cell5 = row.insertCell(0);
             // var cell6 = row.insertCell(0);
 
-  
-            cell4.innerHTML= n;
-            cell3.innerHTML=sum;
+
+            cell4.innerHTML = n;
+            cell3.innerHTML = sum;
             cell2.innerHTML = avg;
-  
-            if(avg>=50){
-                cell1.innerHTML="<font color=green>Pass</font>";
-            }else{
-                cell1.innerHTML="<font color=red>Fail</font>";
+
+            if (avg >= 50) {
+                cell1.innerHTML = "<font color=green>Pass</font>";
+            } else {
+                cell1.innerHTML = "<font color=red>Fail</font>";
             }
         }
-        
-        function newFunction(){
+
+        function newFunction() {
             var element = document.getElementById(" form_id ");
             element.reset()
         }
-        </script>
-     
-</body>
+    </script>
+
 </html>
