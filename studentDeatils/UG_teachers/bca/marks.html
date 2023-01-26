@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
-  
-<body bgcolor="lightblue">
-    <center>
-    <table border="1" cellspacing="5" bgcolor="white">
-        <caption><b>Input Marks</b></caption>
-        <tr>
+  <section >
+
+      <body bgcolor="lightblue" id="form_id ">
+          
+          <h1 class="heading">Marks Calculator</h1>
+          <center>
+              <table border="1" cellspacing="5" bgcolor="white">
+                  <caption><b>Input Marks</b></caption>
+                  <tr>
             <th rowspan="2">Name</th>
             <th colspan="7">Score</th>
-  
+            
         </tr>
         <tr >
             <th>subject 01</th>
@@ -26,16 +29,16 @@
             <td><input type="text" id="an"></td>
             <td><input type="text" id="ac"></td>
             <td><input type="text" id="ap"></td>
-
+            
         </tr>
         <tr>
             <th colspan="7" height="30">
-            <input type="submit" value="Add To Table" onclick="Sub()"></th>
-        </tr>    
-    </table>
-    <br>
-    <table border="1" cellspacing="7" bgcolor="white" 
-           height="100" width="500" cellpadding="5" id="TableScore">
+                <input type="submit" value="Add To Table" onclick="Sub()"></th>
+            </tr>    
+        </table>
+        <br>
+        <table border="1" cellspacing="7" bgcolor="white" 
+        height="100" width="500" cellpadding="5" id="TableScore">
         <caption><b>Student Data</b></caption>
         <tr>
             <th width="180">Name</th>
@@ -43,13 +46,17 @@
             <th>Average</th>
             <th>Pass Or Fail</th>
         </tr>
-          
+        
     </table>
-    </center>
+</center>
 
-    <div class="one">
-        <input type = "button" onclick = "newFunction()" value = "Reset" >
-    </div>
+<div class="one">
+    <input type = "button" onclick = "newFunction()" value = "Reset" >
+</div>
+
+</section>
+
+
     <script type="text/javascript">
         function Sub(){
             var n, k, r, e, v,c,p, sum, avg;
