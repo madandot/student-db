@@ -13,17 +13,28 @@
 </head>
 
 <body>
-    <div class="container">
+
+    <form method="post" action="connect.php">
+        Username : <input type="text" name="username"><br><br>
+        Password : <input type="password" name="password"><br><br>
+        <input type="submit" value="Submit">
+        </form>
+        
+
+
+
+
+    <!-- <div class="container">
         <div class="container-one">
             <h1>sign up</h1>
-            <form>
+            <form method="post" action="insert.php">
                 <div class="container-two">
                     <label for="E-mail">E-mail</label>
-                    <input id="email" type="email">
+                    <input id="email" type="email" name="email">
                 </div>
                 <div class="container-two">
                     <label for="password"> password</label>
-                    <input id="password" type="password">
+                    <input id="password" type="password" name="password">
                     <i id="eyes" onclick="toggle()" class="fa fa-eye"></i>
                     <i id="eye" onclick="toggle()" class="fa fa-eye-slash"></i>
                 </div>
@@ -46,7 +57,7 @@
         </div>
         <footer>
             <p>already have an account? <a href="/logIn/index.html">login</a></p>
-        </footer </div>
+        </footer </div> -->
 
 </body>
 
