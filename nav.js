@@ -1,5 +1,6 @@
 const navbar = `
  
+
 <header class="navbar">
 <div class="logo">
     <h1>CANDLE WASTER</h1>
@@ -10,9 +11,9 @@ const navbar = `
         <li class="it">Departments
             <div class="dep">
                 <ul>
-                    <li><a href="#">Account department</a></li>
-                    <li><a href="#">Hostel department</a></li>
-                    <li><a href="#">Library department</a></li>
+                    <li><a href="./accounts/index.html">Account department</a></li>
+                    <li><a href="./hostel/index.html">Hostel department</a></li>
+                    <li><a href="./librarys/index.html  ">Library department</a></li>
                     <li><a href="/studentDeatils/UG_teachers/bca/application.html">application from</a></li>
                 </ul>
             </div>
@@ -21,7 +22,8 @@ const navbar = `
         <li><i class="fa fa-user"></i><a href="./signIn/index.html">Signup</a></li>
     </ul>
 </div>
-</header>
+</header>  
+
 
 
 
