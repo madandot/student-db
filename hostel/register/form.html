@@ -1,67 +1,73 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
   <title>Register Form</title>
 </head>
+
 <body bgcolor="skyblue">
-   <div align="center"; style="color: black;">
+  <div align="center" ; style="color: black;">
     <h1>REGISTER FORM</h1>
 
 
- <form action="./insert.php" method="POST">
+    <form action="./insert.php" method="POST">
 
-  <table style="font-size: xx-large;">
-   <tr>
-    <td>Student_NAME :</td>
-    <td><input type="text" name="Student_NAME" required style="font-size:large ;"></td>
-   </tr>
-   <tr>
-    <td>USN_NO:</td>
-    <td><input type="text" name="USN_NO" required style="font-size:large ;"></td>
-   </tr>
-   <tr>
-    <td>ADDRESS:</td>
-    <td><input type="text" name="ADDRESS" required style="font-size:large ;"></td>
-   </tr>
-      
- <tr>
-    <td>PHONE_NO:</td>
-    <td><input type="text" name="PHONE_NO" required style="font-size:large ;"></td>
-   </tr> 
+      <table style="font-size: xx-large;">
+        <tr>
+          <td>Student_NAME :</td>
+          <td><input type="text" name="Student_NAME" required style="font-size:large ;"></td>
+        </tr>
+        <tr>
+          <td>USN_NO:</td>
+          <td><input type="text" name="USN_NO" required style="font-size:large ;"></td>
+        </tr>
+        <tr>
+          <td>ADDRESS:</td>
+          <td><input type="text" name="ADDRESS" required style="font-size:large ;"></td>
+        </tr>
 
-   <tr>
-    <td>GENDER:</td>
-    <td>
-      <input type="radio" value="Male" name="GENDER" checked > Male   
-        <input type="radio" value="Female" name="GENDER"> Female   
-        <input type="radio" value="Other" name="GENDER"> Other  
-    </td>
-   </tr> 
-   <tr>
-    <td>COURSE:</td>
-    <td>
-    <select>  
-        <option value="SELECT">SELECT</option>  
-        <option value="BCA">BCA</option>
-        <option value="BSC">BSC</option>   
-        <option value="BBA">BBA</option>  
-        <option value="B.Tech">B.Tech</option>  
-        <option value="MBA">MBA</option>  
-        <option value="MCA">MCA</option>  
-        <option value="MSC">MSC</option> 
-        <option value="M.Tech">M.Tech</option>  
-        </select>  </td>
-   </tr> 
- 
-    <td>Email:</td>
-    <td><input type="text" name="Email" required style="font-size:large ;"></td>
-   </tr> 
+        <tr>
+          <td>PHONE_NO:</td>
+          <td><input type="text" name="PHONE_NO" required style="font-size:large ;"></td>
+        </tr>
 
-   <tr>
-    <td><input type="submit" value="Submit" name="submit"></td>
-     <td><form><input type="button" value="back" onclick="history.back();return true;"></form></td>
-   </tr>
-  </table>
- </form>
+        <tr>
+          <td>GENDER:</td>
+          <td>
+            <input type="radio" value="Male" name="GENDER" checked> Male
+            <input type="radio" value="Female" name="GENDER"> Female
+            <input type="radio" value="Other" name="GENDER"> Other
+          </td>
+        </tr>
+        <tr>
+          <td>COURSE:</td>
+          <td>
+            <select>
+              <option value="SELECT">SELECT</option>
+              <option value="BCA">BCA</option>
+              <option value="BSC">BSC</option>
+              <option value="BBA">BBA</option>
+              <option value="B.Tech">B.Tech</option>
+              <option value="MBA">MBA</option>
+              <option value="MCA">MCA</option>
+              <option value="MSC">MSC</option>
+              <option value="M.Tech">M.Tech</option>
+            </select>
+          </td>
+        </tr>
+
+        <td>Email:</td>
+        <td><input type="text" name="Email" required style="font-size:large ;"></td>
+        </tr>
+
+        <tr>
+          <td><input type="submit" value="Submit" name="submit"></td>
+          <td>
+            <form><input type="button" value="back" onclick="history.back();return true;"></form>
+          </td>
+        </tr>
+      </table>
+    </form>
 </body>
+
 </html>

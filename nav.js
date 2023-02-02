@@ -1,28 +1,31 @@
 const navbar = `
  
 
-<header class="navbar">
-<div class="logo">
-    <h1>CANDLE WASTER</h1>
-</div>
-<div class="items">
-    <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li class="it">Departments
-            <div class="dep">
-                <ul>
-                    <li><a href="./accounts/index.html">Account department</a></li>
-                    <li><a href="./hostel/index.html">Hostel department</a></li>
-                    <li><a href="./librarys/index.html  ">Library department</a></li>
-                    <li><a href="/studentDeatils/UG_teachers/bca/application.html">application from</a></li>
-                </ul>
-            </div>
-        </li>
-        <li><a href="#con">Contacts</a></li>
-        <li><i class="fa fa-user"></i><a href="./signIn/index.html">Signup</a></li>
-    </ul>
-</div>
-</header>  
+
+
+    <header class="navbar">
+        <div class="logo">
+            <h1>CANDLE WASTER</h1>
+        </div>
+        <div class="items">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li class="it">Departments
+                    <div class="dep">
+                        <ul>
+                            <li><a href="./accounts/index.html">Account department</a></li>
+                            <li><a href="./hostel/index.html">Hostel department</a></li>
+                            <li><a href="./librarys/index.html  ">Library department</a></li>
+                            <li><a href="/hostel/register/form.html">application from</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#con">Contacts</a></li>
+                <li><i class="fa fa-user"></i><a href="./signIn/index.html">Signup</a></li>
+            </ul>
+        </div>
+    </header>
+
 
 
 
