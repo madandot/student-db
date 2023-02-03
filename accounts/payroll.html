@@ -1,25 +1,46 @@
 <html>
-  <head>
-    <title>Payroll Calculator</title>
-  </head>
-  <body>
-    <h1>Payroll Calculator</h1>
-    <form>
-      <label for="hours_worked">Hours Worked:</label>
-      <input type="text" id="hours_worked" name="hours_worked"><br><br>
-      <label for="hourly_rate">Hourly Rate:</label>
-      <input type="text" id="hourly_rate" name="hourly_rate"><br><br>
-      <input type="button" value="Calculate" onclick="calculateSalary()"><br><br>
-      <label for="salary">Salary:</label>
-      <input type="text" id="salary" name="salary" disabled><br><br>
-    </form>
-    <script>
-      function calculateSalary() {
-        var hours_worked = parseFloat(document.getElementById("hours_worked").value);
-        var hourly_rate = parseFloat(document.getElementById("hourly_rate").value);
-        var salary = hours_worked * hourly_rate;
-        document.getElementById("salary").value = salary;
-      }
-    </script>
-  </body>
+
+<head>
+  <title>Payroll Calculator</title>
+  <style>
+    body {
+      background-color: rgb(218, 227, 224);
+      text-align: center;
+      padding-top: 5rem;
+    }
+
+    form label {
+      text-transform: capitalize;
+      font-size: 40px;
+    }
+
+    form input {
+      padding: 10px;
+      outline: none;
+      font-size: large;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Payroll Calculator</h1>
+  <form>
+    <label for="hours_worked">Hours Worked:</label>
+    <input type="text" id="hours_worked" name="hours_worked"><br><br>
+    <label for="hourly_rate">Hourly Rate:</label>
+    <input type="text" id="hourly_rate" name="hourly_rate"><br><br>
+    <input type="button" value="Calculate" onclick="calculateSalary()"><br><br>
+    <label for="salary">Salary:</label>
+    <input type="text" id="salary" name="salary" disabled><br><br>
+  </form>
+  <script>
+    function calculateSalary() {
+      var hours_worked = parseFloat(document.getElementById("hours_worked").value);
+      var hourly_rate = parseFloat(document.getElementById("hourly_rate").value);
+      var salary = hours_worked * hourly_rate;
+      document.getElementById("salary").value = salary;
+    }
+  </script>
+</body>
+
 </html>
