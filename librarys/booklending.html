@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Lending System</title>
+    <script>
+      function lendBook(title) {
+        var book = document.getElementById(title);
+        if (book.innerHTML == "Available") {
+          book.innerHTML = "Not Available";
+        } else {
+          alert("Book is not available for lending");
+        }
+      }
+
+      function returnBook(title) {
+        var book = document.getElementById(title);
+        if (book.innerHTML == "Not Available") {
+          book.innerHTML = "Available";
+        } else {
+          alert("Book has already been returned or was never lent");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Book Lending System</h1>
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+      <tr>
+        <td>The Great Gatsby</td>
+        <td>F. Scott Fitzgerald</td>
+        <td id="The Great Gatsby">Available</td>
+        <td>
+          <button onclick="lendBook('The Great Gatsby')">Lend</button>
+          <button onclick="returnBook('The Great Gatsby')">Return</button>
+        </td>
+      </tr>
+      <tr>
+        <td>To Kill a Mockingbird</td>
+        <td>Harper Lee</td>
+        <td id="To Kill a Mockingbird">Available</td>
+        <td>
+          <button onclick="lendBook('To Kill a Mockingbird')">Lend</button>
+          <button onclick="returnBook('To Kill a Mockingbird')">Return</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

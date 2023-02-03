@@ -30,7 +30,7 @@ tr:nth-child(even) {background-color:lightGREY;}
 <th>Email</th>
 </tr>
 <?php
-$conn = mysqli_connect("localhost", "mokshith", "iloveanchal", "reg");
+$conn = mysqli_connect("localhost", "mokshith", "iloveanchal", "REG");
 // Check connection
 if ($conn->connect_error) {
 die("Connection failed: " . $conn->connect_error);

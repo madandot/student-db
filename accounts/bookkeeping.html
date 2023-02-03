@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bookkeeping Application</title>
+  <style>
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+    
+    label, input[type="submit"] {
+      width: 200px;
+      margin: 10px;
+    }
+    
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+    }
+    
+    th {
+      background-color: lightgray;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bookkeeping Application</h1>
+  
+  <form>
+    <label for="transaction-date">Date:</label>
+    <input type="date" id="transaction-date" name="transaction-date">
+    
+    <label for="transaction-description">Student USN_NO:</label>
+    <input type="text" id="transaction-description" name="transaction-description">
+    
+    <label for="transaction-amount">Amount:</label>
+    <input type="number" id="transaction-amount" name="transaction-amount">
+    
+    <label for="transaction-category">Category:</label>
+    <select id="transaction-category" name="transaction-category">
+      <option value="income">cash</option>
+      <option value="expense">loan</option>
+      <option value="expense">UPI</option>
+      <option value="expense">cheque</option>
+    </select>
+    
+    <input type="submit" value="Add Transaction">
+  </form>
+  
+ 
+      <!-- Add transactions here -->
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Category</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2022-12-01</td>
+            <td>20SBSB7018</td>
+            <td>5000</td>
+            <td>loan</td>
+          </tr>
+        </tbody>
+        <tbody>
+            <tr>
+              <td>2022-12-01</td>
+              <td>20SBSB7017</td>
+              <td>5000</td>
+              <td>cash</td>
+            </tr>
+            <tbody>
+                <tr>
+                  <td>2022-12-01</td>
+                  <td>20SBSB7015</td>
+                  <td>5000</td>
+                  <td>UPI</td>
+                </tr>
+        </table>
+      
+    </tbody>
+  </table>
+</body>
+</html>

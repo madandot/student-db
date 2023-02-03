@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
         $host = "localhost";
         $dbUsername = "mokshith";
         $dbPassword = "iloveanchal";
-        $dbName = "reg";
+        $dbName = "REG";
 $conn = new mysqli($host, $dbUsername, $dbPassword, $dbName);
  if ($conn->connect_error) {
             die('Could not connect to the database.');
@@ -31,9 +31,9 @@ $conn = new mysqli($host, $dbUsername, $dbPassword, $dbName);
  if ($rnum == 0) {
                 $stmt->close();
   $stmt = $conn->prepare($Insert);
-                $stmt->bind_param("ssssiii",$Student_NAME, $USN_NO, $ADDRESS, $PHONE_NO, $GENDER, $COURSE, $Email);
+                $stmt->bind_param("sssisss",$Student_NAME, $USN_NO, $ADDRESS, $PHONE_NO, $GENDER, $COURSE, $Email);
                 if ($stmt->execute()) {
-                    echo "New record inserted sucessfully.";
+                    echo "New record inserted successfully.";
  }
                 else {
                     echo $stmt->error;

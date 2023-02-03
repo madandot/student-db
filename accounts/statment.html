@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Financial Statement Generator</title>
+  </head>
+  <body>
+    <h1>Financial Statement Generator</h1>
+    <form>
+      <label for="income">Income:</label>
+      <input type="text" id="income" name="income"><br><br>
+      <label for="expenses">Expenses:</label>
+      <input type="text" id="expenses" name="expenses"><br><br>
+      <input type="button" value="Generate Statement" onclick="generateStatement()"><br><br>
+      <table id="financialStatement">
+        <tr>
+          <th>Income</th>
+          <td id="incomeValue"></td>
+        </tr>
+        <tr>
+          <th>Expenses</th>
+          <td id="expensesValue"></td>
+        </tr>
+        <tr>
+          <th>Balance</th>
+          <td id="balanceValue"></td>
+        </tr>
+      </table>
+    </form>
+    <script>
+      function generateStatement() {
+        var income = parseFloat(document.getElementById("income").value);
+        var expenses = parseFloat(document.getElementById("expenses").value);
+        var balance = income - expenses;
+        document.getElementById("incomeValue").innerHTML = income;
+        document.getElementById("expensesValue").innerHTML = expenses;
+        document.getElementById("balanceValue").innerHTML = balance;
+      }
+    </script>
+  </body>
+</html>
