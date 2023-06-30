@@ -5,7 +5,7 @@ const navbar = `
 
     <header class="navbar">
         <div class="logo">
-            <h1>CANDLE WASTER</h1>
+            <a href="#"><h1>CANDLE WASTER</h1></a> 
         </div>
         <div class="items">
             <ul>
@@ -14,8 +14,8 @@ const navbar = `
                     <div class="dep">
                         <ul>
                             <li><a href="./accounts/index.html">Account department</a></li>
-                            <li><a href="./hostel/index.html">Hostel department</a></li>
-                            <li><a href="./librarys/index.html  ">Library department</a></li>
+                            <li><a href="/hostel/index.html">Hostel department</a></li>
+                            <li><a href="/librarys/index.html  ">Library department</a></li>
                             <li><a href="/hostel/register/form.html">application from</a></li>
                         </ul>
                     </div>

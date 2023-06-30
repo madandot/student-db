@@ -108,7 +108,7 @@
       margin: auto;
       text-align: center;
       font-family: arial;
-      height: 60vh;
+      /* height: 60vh; */
   }
 
   .card img {
